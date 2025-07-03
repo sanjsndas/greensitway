@@ -1,0 +1,30 @@
+/* Add to :root */
+:root {
+  --primary-color: #3a7d44;
+  --secondary-color: #f8f9fa;
+  --accent-color: #6bbf59;
+  --text-dark: #2d3748;
+  --text-light: #f8f9fa;
+  --background-light: #f8f9fa;
+  --background-dark: #2d3748;
+}
+
+/* Add to existing styles */
+.legal-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.legal-content h2 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.legal-content p, .legal-content ul {
+  margin-bottom: 15px;
+}
+
+.legal-content ul {
+  padding-left: 20px;
+}
